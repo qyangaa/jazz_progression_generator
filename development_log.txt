@@ -1,0 +1,33 @@
+This is a log of my development and learning process of this project.
+
+5/22/2020
+
+1.Conceived the project, changed from music progression generation to notes generation. It seems that chord progression generation is a task too simple that RNN is overrated. Composing whole music with notes will be more of interest. 
+2.Useful resources found on medium: 
+	1. https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5
+	2. https://medium.com/@alexissa122/generating-original-classical-music-with-an-lstm-neural-network-and-attention-abf03f9ddcb4
+		I will follow the first reference to build a backbone of this project.
+3.The reference uses midi files as input. Here are useful resources for midi files:
+	1. http://www.partnersinrhyme.com/midi/Jazz/Jazz_Midi_Files/011.shtml
+4.Package installation
+	1.Music21: http://web.mit.edu/music21/
+	2.check if tensorflow is installed: python -c 'from tensorflow import keras; print(keras.__version__)'
+	3.Install tensorflow: pip install tensorflow
+5.Data Exploration
+
+
+
+5/23/2020
+
+1.Reading more about this field
+	1. Another resource showing CNN from Wave2Midi2Wave on MAESTRO dataset gives realistic results: https://towardsdatascience.com/generating-music-with-artificial-intelligence-9ce3c9eef806
+	2. The original post is on Magenta: https://magenta.tensorflow.org/maestro-wave2midi2wave
+	3. Magenta is an open source research project exploring the role of machine learning as a tool in the music creative process: https://magenta.tensorflow.org/
+	4. There are a lot interesting posts from Magenta, eg.:https://magenta.tensorflow.org/nobodys-songs
+	5. The entertaining RNN model for skeching is also from Magenta, amazing team!: https://magenta.tensorflow.org/assets/sketch_rnn_demo/index.html
+	6. A nice overview from 2019 Google I/O: https://www.youtube.com/watch?v=pM9u9xcM_cs
+
+
+
+
+
